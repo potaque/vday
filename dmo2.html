@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+	<title>BYD(By Your Desiree)</title>
+ <link rel="stylesheet" href="stylo.css">
+</head>
+<style type="text/css">
+
+body{
+	background-color: lightpink;
+		margin:0;padding:0;
+			font-family:"Comic Sans MS", "Comic Sans", "Silkscreen",cursive;
+			-webkit-font-smoothing: none;
+}
+.container{
+	width: 100%;
+	height: 100vh;
+	background:lightpink;
+	display: flex;
+	align-items: center;
+	justify content: center;
+}
+.container2 {
+	width: 200px;
+	height: 400px;
+	text-align: center;
+	justify-content: center;
+}
+.container2:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+}
+.question{
+	position: absolute;
+      animation: slide 5s linear forwards;\
+      font-family: Silkscreen, cursive;
+      font-size: 50px;
+      margin-top: 300px;
+      color: white;
+    }
+
+    @keyframes slide {
+      from { transform: translateX(-100%); }
+      to { transform: translateX(35%); }
+  }
+    
+.moving-text {
+     font-family:Comic Sans MS;
+		font-size: 50px;
+		text-align: center;
+		color: black;
+		padding: 20px;
+      animation: moveUpDown 3s infinite ease-in-out;
+    }
+
+    @keyframes moveUpDown {
+      0% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-50px); /* Moves up */
+      }
+      100% {
+        transform: translateY(0
+        }
+      }
+h1{
+	font-family:Silkscreen, cursive;
+	font-size: 50px;
+	text-align: center;
+	color: black;
+	padding: 20px;
+}
+h2{
+	font-family:Silkscreen, cursive;
+	font-size: 25px;
+	text-align: center;
+	color: #2e282d;
+}
+h3{
+	font-family: Silkscreen, sans-serif; 
+	text-align: center;
+	margin-top: 900px;
+
+
+}
+
+h4{
+	font-family:Comic Sans MS, Comic Sans, cursive;
+	font-size: 20px;
+	text-align: center;
+	color: #2e282d;
+}
+.center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+	height: 120px;
+}
+.img-center{
+	display: block;
+	margin: auto;
+	width: 30%;
+	height: 450px;
+
+}
+.image{
+	display: block;
+	padding: 30px 50px 30px;
+
+}
+a{
+	text-decoration: none;
+
+}
+
+</style>
+<body>
+
+<div class="bg"></div>
+
+<div class="moving-text"><h1>Happy Valentines Day!</h1> </div>
+
+<div class="question"><h3>Will you be my Valentine's date?🌹</h3></div>
+
+<center>
+<div class="image"><img src="imgs/cutiewookie.jpeg" 
+    width="550"
+    height="300"></div>
+
+
+<button style="background: green; padding: 20px; text-decoration: none;">
+
+<a href="finaldmo.html">YES</a>
+</button>
+
+<button style="background: red; padding: 10px; text-decoration: none;">
+
+<a href="nope.html">no</a>
+</button>
+
+
+</center>
+
+
+</body>

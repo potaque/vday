@@ -1,0 +1,56 @@
+body{
+	background-color: #F8C8DC;
+    margin:0;padding:0;
+      font-family:'"Comic Sans MS"', Helvetica,Lucida,sans-serif;
+      -webkit-font-smoothing: antiliased; 
+
+@font-face {
+  font-family: "Silkscreen";
+  src: url(fonts/slkscr.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Silkscreen";
+  src: url(fonts/slkscre.ttf);
+  font-style: italic;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Silkscreen";
+  src: url(fonts/slkscrb.ttf);
+  font-style: bold;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Silkscreen";
+  src: url(fonts/slkscreb.ttf);
+  font-weight: bold;
+  font-style: italic;
+
+.topnav {
+  overflow: hidden;
+  background-color: lightpink;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 20px 22px;
+  text-decoration: none;
+  font-size: 24px;
+  font-family: 
+}
+
+.topnav a:hover {
+  background-color: #A4C250;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #A4C250;
+  color: white;
+}
+
+}
